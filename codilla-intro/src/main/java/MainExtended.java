@@ -3,7 +3,7 @@ public class MainExtended {
         String myName = "Mykola";
         String myAddress = "Warszawa";
         int buildN = 38;
-        double postCode = 03.287;
+        String postCode = "03-287";
         boolean prawoJazdy = true;
         char kat = 'B';
         System.out.println (postCode);
