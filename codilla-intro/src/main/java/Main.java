@@ -1,4 +1,4 @@
-public class Proba {
+public class Main {
     public static void main(String[] args) {
     String myName = "Maciej";
     int myAge = 22;
