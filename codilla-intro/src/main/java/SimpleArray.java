@@ -6,7 +6,9 @@ public class SimpleArray {
         name[2] = "Svitlana";
         name[3] = "Molly";
         name[4] = "Natalia";
-        String name=name[3];
+        String names=name[3];
+        System.out.println(names);
         int numberOfElements = name.length;
+        System.out.println(numberOfElements);
     }
 }
