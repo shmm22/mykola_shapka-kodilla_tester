@@ -9,11 +9,8 @@ public class DebugExample {
             subtractAndDisplay(firstNumber, secondNumber);
         }else{
             sumAndDisplay(firstNumber,secondNumber);
-        }
-      sumAndDisplay(firstNumber,secondNumber);
-        subtractAndDisplay(firstNumber,secondNumber);
-
-    }
+                    }
+           }
     private static void sumAndDisplay (int a, int b){
         int result=a+b;
         System.out.println(result);
@@ -23,3 +20,4 @@ public class DebugExample {
         System.out.println(result);
         }
 }
+
