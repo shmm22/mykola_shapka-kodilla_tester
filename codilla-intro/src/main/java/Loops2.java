@@ -9,6 +9,16 @@ public class Loops2 {
         System.out.println("Tablica zawiera elementow:" + numberOfElements);
         for (int i = names.length - 2; i >= 0; i--) {
             System.out.println(names[i]);
+            public int getCountOfRandomNumber(int max) {
+                Random random = new Random();
+                int result = 0;
+                int sum = 0;
+                while (sum < max) {
+                    int temp = random.nextInt(10);
+                    sum = sum + temp;
+                    result++;
+                }
+                return result;
+            }
         }
-    }
-}
+
